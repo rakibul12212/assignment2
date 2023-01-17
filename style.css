@@ -1,0 +1,220 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+    }
+    
+    .banner {
+        background-color: rgb(255, 241, 240);
+    }
+    
+    .nevbar {
+        overflow: hidden;
+        height: 70px;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .logo {
+        padding: 5px 0;
+        float: left;
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    h1 {
+        text-decoration: none;
+        padding-left: 40px;
+        color: rgb(7, 7, 7);
+        text-align: center;
+    }
+    
+    .link {
+        padding: 10px 5px;
+        float: right;
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-right: 40px;
+    }
+    
+    a:hover {
+        color: rgb(230, 135, 47);
+    }
+    /* about-section */
+    
+    .container-about {
+        text-align: center;
+        width: 290px;
+        margin: auto;
+        padding: 40px;
+    }
+    /* button1 */
+    
+    .b-1 {
+        padding: 10px;
+        background-color: rgb(245, 106, 56);
+        color: aliceblue;
+        margin: auto;
+        border-radius: 5px;
+        border: none;
+    }
+    /*  banner-section */
+    
+    .container-banner {
+        text-align: center;
+        padding: 25px;
+        margin: auto;
+    }
+    /* feature-section-1 */
+    
+    #psudo::before {
+        content: 'Quick list ';
+        color: rgb(107, 106, 106);
+    }
+    
+    #psudo::after {
+        content: ' Features';
+        color: rgb(223, 114, 12);
+    }
+    
+    .team-img {
+        display: grid;
+        grid-template-columns: 2fr 7fr;
+        grid-gap: 1em;
+        margin: 50px;
+    }
+    
+    .feature-section {
+        display: flex;
+        align-items: center;
+        width: 1500px;
+    }
+    
+    .feature-h2 {
+        width: 200px;
+        height: 60px;
+    }
+    
+    .feature1-p {
+        height: 50px;
+        width: 620px;
+    }
+    /* button-2 */
+    
+    .b-2 {
+        padding: 10px;
+        background-color: rgb(245, 106, 56);
+        color: aliceblue;
+        margin: auto;
+        border-radius: 5px;
+        border: none;
+    }
+    /* feature-section-2 */
+    
+    .f2 {
+        margin: 20px;
+        width: 700px;
+    }
+    
+    #f2 {
+        display: flex;
+        margin: 150px;
+    }
+    
+    .fh4 {
+        margin: 20px;
+    }
+    
+    .feature-2-img {
+        resize: vertical;
+        overflow: none;
+    }
+    
+    .feature-2-img {
+        background-image: url("g3-architects/images/architect.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .b-3 {
+        background-color: rgb(245, 106, 56);
+        color: aliceblue;
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        align-items: left;
+        margin-right: 690px;
+        margin-bottom: 100px;
+        margin-bottom: 100px;
+        border: none;
+        border-radius: 5px;
+    }
+    /* fact-section */
+    
+    .fact-h2 {
+        text-align: left;
+        margin: 70px;
+        width: 500px;
+    }
+    
+    .sf-icon {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0 300px;
+        transition: all .7 linear;
+    }
+    
+    .fact-icon:hover {
+        width: 120px;
+        height: 120px;
+    }
+    /* sponser-section */
+    
+    .sponser-h2 {
+        margin: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .sponser-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* update-section */
+    
+    .upadate {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 40px;
+    }
+    
+    .email {
+        border-radius: 2px;
+    }
+    /* footer-section */
+    
+    .footer {
+        background-color: rgb(233, 214, 218);
+        margin: 50px;
+        padding: 20px;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
